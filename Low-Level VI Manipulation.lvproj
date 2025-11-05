@@ -22,10 +22,11 @@
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 		</Item>
-		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../Support Files/Resource Editor Internal Commands Enum.ctl">
+		<Item Name="CTLs" Type="Folder">
+			<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
+			<Item Name="XML Editor State Data.ctl" Type="VI" URL="../CTLs/XML Editor State Data.ctl"/>
 		</Item>
 		<Item Name="Control Editing" Type="Folder">
 			<Item Name="Create and Save Control.vi" Type="VI" URL="../Support Files/Create and Save Control.vi"/>
@@ -45,6 +46,7 @@
 		<Item Name="VILab.lvlib" Type="Library" URL="../VILab.lvlib"/>
 		<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
 		<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Support Files/VILab/Basic Test SubVI.vi"/>
+		<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../Support Files/FaKI State Machine/FaKI State Machine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi">
@@ -250,6 +252,12 @@
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="Split String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Split String.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi">
@@ -289,6 +297,7 @@
 				<Item Name="openg_file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/openg_file.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
+				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
