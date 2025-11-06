@@ -14,27 +14,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="RE/EZXML Support" Type="Folder">
-			<Item Name="Easy XML Editor Menu.vi" Type="VI" URL="../Support Files/Easy XML Editor Menu.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-			<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../Support Files/Prompt for Terminal Counts.vi">
-				<Property Name="marked" Type="Int">0</Property>
-			</Item>
-		</Item>
 		<Item Name="CTLs" Type="Folder">
 			<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl">
 				<Property Name="marked" Type="Int">0</Property>
 			</Item>
 			<Item Name="XML Editor State Data.ctl" Type="VI" URL="../CTLs/XML Editor State Data.ctl"/>
+			<Item Name="Resource Array.ctl" Type="VI" URL="../CTLs/Resource Array.ctl"/>
+			<Item Name="Resource.ctl" Type="VI" URL="../CTLs/Resource.ctl"/>
+			<Item Name="Terminal Counts.ctl" Type="VI" URL="../SubVIs/Terminal Counts.ctl"/>
+			<Item Name="Heap Save Format.ctl" Type="VI" URL="../CTLs/Heap Save Format.ctl"/>
 		</Item>
 		<Item Name="Control Editing" Type="Folder">
-			<Item Name="Create and Save Control.vi" Type="VI" URL="../Support Files/Create and Save Control.vi"/>
-			<Item Name="Add Glyph to Icon.vi" Type="VI" URL="../Support Files/Add Glyph to Icon.vi"/>
-			<Item Name="Mass Create Controls.vi" Type="VI" URL="../Support Files/Mass Create Controls.vi"/>
-			<Item Name="Mass Assign Window Text.vi" Type="VI" URL="../Support Files/Mass Assign Window Text.vi"/>
-			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Support Files/Mass Edit Icon.vi"/>
-			<Item Name="Convert all SVGs to PNGs.vi" Type="VI" URL="../Support Files/Convert all SVGs to PNGs.vi"/>
+			<Item Name="Create and Save Control.vi" Type="VI" URL="../Control Editing/Create and Save Control.vi"/>
+			<Item Name="Add Glyph to Icon.vi" Type="VI" URL="../Control Editing/Add Glyph to Icon.vi"/>
+			<Item Name="Mass Create Controls.vi" Type="VI" URL="../Control Editing/Mass Create Controls.vi"/>
+			<Item Name="Mass Assign Window Text.vi" Type="VI" URL="../Control Editing/Mass Assign Window Text.vi"/>
+			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Control Editing/Mass Edit Icon.vi"/>
+			<Item Name="Convert all SVGs to PNGs.vi" Type="VI" URL="../Control Editing/Convert all SVGs to PNGs.vi"/>
 		</Item>
 		<Item Name="Legacy VIs" Type="Folder">
 			<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi">
@@ -42,15 +38,45 @@
 			</Item>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../Support Files/FaKI State Machine/FaKI State Machine.lvlib"/>
-			<Item Name="Save New VI From XML.vi" Type="VI" URL="../CTLs/Save New VI From XML.vi"/>
-			<Item Name="Convert Format to Resource Type.vi" Type="VI" URL="../Support Files/Convert Format to Resource Type.vi"/>
-			<Item Name="Convert Source VI to Resource Data.vi" Type="VI" URL="../Support Files/Convert Source VI to Resource Data.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Add Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Add Resource Size Bytes.vi"/>
+			<Item Name="Blank VI.vi" Type="VI" URL="../SubVIs/Blank VI.vi"/>
+			<Item Name="Convert Format to Resource Type.vi" Type="VI" URL="../SubVIs/Convert Format to Resource Type.vi"/>
+			<Item Name="Convert Source VI to Resource Data.vi" Type="VI" URL="../SubVIs/Convert Source VI to Resource Data.vi"/>
+			<Item Name="Decompose VI (Path).vi" Type="VI" URL="../SubVIs/Decompose VI (Path).vi"/>
+			<Item Name="Decompose VI (Refnum).vi" Type="VI" URL="../SubVIs/Decompose VI (Refnum).vi"/>
+			<Item Name="Decompose VI.vi" Type="VI" URL="../SubVIs/Decompose VI.vi"/>
+			<Item Name="Easy XML Editor Menu.vi" Type="VI" URL="../SubVIs/Easy XML Editor Menu.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
+			<Item Name="Find Block Diagram Resource.vi" Type="VI" URL="../SubVIs/Find Block Diagram Resource.vi"/>
+			<Item Name="Find First Matching Resource (String).vi" Type="VI" URL="../SubVIs/Find First Matching Resource (String).vi"/>
+			<Item Name="Find First Matching Resource (U32).vi" Type="VI" URL="../SubVIs/Find First Matching Resource (U32).vi"/>
+			<Item Name="Find Resource by Type (String).vi" Type="VI" URL="../SubVIs/Find Resource by Type (String).vi"/>
+			<Item Name="Find Resource by Type (U32).vi" Type="VI" URL="../SubVIs/Find Resource by Type (U32).vi"/>
+			<Item Name="Find Resource by Type.vi" Type="VI" URL="../SubVIs/Find Resource by Type.vi"/>
+			<Item Name="Fix BDPW Checksum.vi" Type="VI" URL="../SubVIs/Fix BDPW Checksum.vi"/>
+			<Item Name="Fix Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Fix Resource Size Bytes.vi"/>
+			<Item Name="Get Counts from Datatype.vi" Type="VI" URL="../SubVIs/Get Counts from Datatype.vi"/>
+			<Item Name="Get Default VI Resources.vi" Type="VI" URL="../SubVIs/Get Default VI Resources.vi"/>
+			<Item Name="Get Terminal Counts.vi" Type="VI" URL="../SubVIs/Get Terminal Counts.vi"/>
+			<Item Name="Is Big Endian.vi" Type="VI" URL="../SubVIs/Is Big Endian.vi"/>
+			<Item Name="Load Resource File.vi" Type="VI" URL="../SubVIs/Load Resource File.vi"/>
+			<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../SubVIs/Prompt for Terminal Counts.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Recompose VI.vi" Type="VI" URL="../SubVIs/Recompose VI.vi"/>
+			<Item Name="Save New VI From XML.vi" Type="VI" URL="../SubVIs/Save New VI From XML.vi"/>
+			<Item Name="Save Resource File.vi" Type="VI" URL="../SubVIs/Save Resource File.vi"/>
+			<Item Name="Save VI with XML Heaps.vi" Type="VI" URL="../SubVIs/Save VI with XML Heaps.vi"/>
+			<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../SubVIs/Test Decompose and Recompose.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
-			<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Support Files/VILab/Basic Test SubVI.vi"/>
+			<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Testers/Basic Test SubVI.vi"/>
+			<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
+			<Item Name="Remove Unnecessary Whitespace from XML.vi" Type="VI" URL="../Testers/Remove Unnecessary Whitespace from XML.vi"/>
 		</Item>
-		<Item Name="Resource Manipulation.lvlib" Type="Library" URL="../Resource Manipulation.lvlib"/>
 		<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
@@ -176,10 +202,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/XNodeSupport/NI_XNodeSupport.lvlib"/>
-				<Item Name="InsetRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/InsetRect.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
@@ -187,9 +209,6 @@
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi">
-					<Property Name="marked" Type="Int">0</Property>
-				</Item>
-				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
 				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl">
@@ -304,7 +323,6 @@
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
-				<Item Name="Open in Editor.vi" Type="VI" URL="/&lt;userlib&gt;/Open in Editor.vi"/>
 				<Item Name="openg_file.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/openg_file.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="openg_array.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/openg_array.lvlib"/>
