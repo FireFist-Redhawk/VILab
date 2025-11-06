@@ -36,17 +36,27 @@
 			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Support Files/Mass Edit Icon.vi"/>
 			<Item Name="Convert all SVGs to PNGs.vi" Type="VI" URL="../Support Files/Convert all SVGs to PNGs.vi"/>
 		</Item>
-		<Item Name="Resource Manipulation.lvlib" Type="Library" URL="../Resource Manipulation.lvlib"/>
-		<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi">
-			<Property Name="marked" Type="Int">0</Property>
+		<Item Name="Legacy VIs" Type="Folder">
+			<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../Support Files/FaKI State Machine/FaKI State Machine.lvlib"/>
+			<Item Name="Save New VI From XML.vi" Type="VI" URL="../CTLs/Save New VI From XML.vi"/>
+			<Item Name="Convert Format to Resource Type.vi" Type="VI" URL="../Support Files/Convert Format to Resource Type.vi"/>
+			<Item Name="Convert Source VI to Resource Data.vi" Type="VI" URL="../Support Files/Convert Source VI to Resource Data.vi"/>
+		</Item>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Support Files/VILab/Basic Test SubVI.vi"/>
+		</Item>
+		<Item Name="Resource Manipulation.lvlib" Type="Library" URL="../Resource Manipulation.lvlib"/>
 		<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi">
 			<Property Name="marked" Type="Int">0</Property>
 		</Item>
 		<Item Name="VILab.lvlib" Type="Library" URL="../VILab.lvlib"/>
 		<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
-		<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Support Files/VILab/Basic Test SubVI.vi"/>
-		<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../Support Files/FaKI State Machine/FaKI State Machine.lvlib"/>
+		<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi">
@@ -258,6 +268,7 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi">
