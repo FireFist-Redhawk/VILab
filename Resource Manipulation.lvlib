@@ -7,38 +7,5 @@
 	<Property Name="NI_IconEditor" Type="Str">49 56 48 48 56 48 48 55 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 0 76 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 9 0 0
 
 </Property>
-	<Item Name="Polymorphic Instances" Type="Folder">
-		<Item Name="Decompose VI (Path).vi" Type="VI" URL="../Resource Manipulation/Decompose VI (Path).vi"/>
-		<Item Name="Decompose VI (Refnum).vi" Type="VI" URL="../Resource Manipulation/Decompose VI (Refnum).vi"/>
-		<Item Name="Find First Matching Resource (String).vi" Type="VI" URL="../Resource Manipulation/Find First Matching Resource (String).vi"/>
-		<Item Name="Find First Matching Resource (U32).vi" Type="VI" URL="../Resource Manipulation/Find First Matching Resource (U32).vi"/>
-		<Item Name="Find Resource by Type (String).vi" Type="VI" URL="../Resource Manipulation/Find Resource by Type (String).vi"/>
-		<Item Name="Find Resource by Type (U32).vi" Type="VI" URL="../Resource Manipulation/Find Resource by Type (U32).vi"/>
-	</Item>
-	<Item Name="VI Editing" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Find Block Diagram Resource.vi" Type="VI" URL="../Support Files/Find Block Diagram Resource.vi"/>
-		<Item Name="Get Counts from Datatype.vi" Type="VI" URL="../Resource Manipulation/Get Counts from Datatype.vi"/>
-		<Item Name="Get Terminal Counts.vi" Type="VI" URL="../Resource Manipulation/Get Terminal Counts.vi"/>
-		<Item Name="Terminal Counts.ctl" Type="VI" URL="../Resource Manipulation/Terminal Counts.ctl"/>
-		<Item Name="Decompose VI.vi" Type="VI" URL="../Resource Manipulation/Decompose VI.vi"/>
-		<Item Name="Heap Save Format.ctl" Type="VI" URL="../Resource Manipulation/Heap Save Format.ctl"/>
-		<Item Name="Save VI with XML Heaps.vi" Type="VI" URL="../Resource Manipulation/Save VI with XML Heaps.vi"/>
-		<Item Name="Get Default VI Resources.vi" Type="VI" URL="../Resource Manipulation/Get Default VI Resources.vi"/>
-		<Item Name="Blank VI.vi" Type="VI" URL="../Resource Manipulation/Blank VI.vi"/>
-		<Item Name="Recompose VI.vi" Type="VI" URL="../Resource Manipulation/Recompose VI.vi"/>
-		<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../Resource Manipulation/Test Decompose and Recompose.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
-		<Item Name="Fix BDPW Checksum.vi" Type="VI" URL="../Support Files/Fix BDPW Checksum.vi"/>
-	</Item>
-	<Item Name="Add Resource Size Bytes.vi" Type="VI" URL="../Support Files/Add Resource Size Bytes.vi"/>
-	<Item Name="Find Resource by Type.vi" Type="VI" URL="../Resource Manipulation/Find Resource by Type.vi"/>
-	<Item Name="Fix Resource Size Bytes.vi" Type="VI" URL="../Support Files/Fix Resource Size Bytes.vi"/>
-	<Item Name="Is Big Endian.vi" Type="VI" URL="../Resource Manipulation/Is Big Endian.vi"/>
-	<Item Name="Load Resource File.vi" Type="VI" URL="../Resource Manipulation/Load Resource File.vi"/>
-	<Item Name="Resource Array.ctl" Type="VI" URL="../Resource Manipulation/Resource Array.ctl"/>
-	<Item Name="Resource.ctl" Type="VI" URL="../Resource Manipulation/Resource.ctl"/>
-	<Item Name="Save Resource File.vi" Type="VI" URL="../Resource Manipulation/Save Resource File.vi"/>
 	<Item Name="Type ID Constant.xnode" Type="XNode" URL="../Resource Manipulation/Type ID Constant/Type ID Constant.xnode"/>
 </Library>

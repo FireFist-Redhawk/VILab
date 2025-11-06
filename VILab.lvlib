@@ -9,28 +9,23 @@
 
 </Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support Files/VILab/Attribute.lvclass"/>
-		<Item Name="Data Item.lvclass" Type="LVClass" URL="../Support Files/VILab/Data Item.lvclass"/>
-		<Item Name="Element Array.lvclass" Type="LVClass" URL="../Support Files/VILab/Element Array.lvclass"/>
-		<Item Name="Element.lvclass" Type="LVClass" URL="../Support Files/VILab/Element.lvclass"/>
-		<Item Name="Reference.lvclass" Type="LVClass" URL="../Support Files/VILab/Reference/Reference.lvclass"/>
-		<Item Name="Tree Manager.lvclass" Type="LVClass" URL="../Support Files/VILab/Tree Manager.lvclass"/>
+		<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Attribute/Attribute.lvclass"/>
+		<Item Name="Data Item.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Data Item/Data Item.lvclass"/>
+		<Item Name="Element Array.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Element Array/Element Array.lvclass"/>
+		<Item Name="Element.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Element/Element.lvclass"/>
+		<Item Name="Reference.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Reference/Reference.lvclass"/>
+		<Item Name="Tree Manager.lvclass" Type="LVClass" URL="../Support Files/VILab/Classes/Tree Manager/Tree Manager.lvclass"/>
 	</Item>
-	<Item Name="SubVI&apos;s" Type="Folder">
-		<Item Name="Convert XML Value to VTT.vi" Type="VI" URL="../Support Files/VILab/Convert XML Value to VTT.vi"/>
-		<Item Name="Escape XML Text.vi" Type="VI" URL="../Support Files/VILab/Escape XML Text.vi"/>
-		<Item Name="Init Tree Control.vi" Type="VI" URL="../Support Files/VILab/Init Tree Control.vi"/>
-		<Item Name="Parse XML Heap.vi" Type="VI" URL="../Support Files/VILab/Parse XML Heap.vi"/>
-		<Item Name="Process XML Node.vi" Type="VI" URL="../Support Files/VILab/Process XML Node.vi"/>
-		<Item Name="Process XML Node old2.vi" Type="VI" URL="../Support Files/VILab/Process XML Node old2.vi"/>
+	<Item Name="CTLs" Type="Folder">
+		<Item Name="State Enum.ctl" Type="VI" URL="../Support Files/VILab/CTLs/State Enum.ctl"/>
+		<Item Name="VILab Data.ctl" Type="VI" URL="../Support Files/VILab/CTLs/VILab Data.ctl"/>
 	</Item>
-	<Item Name="Test VI&apos;s" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Test XML Rebuild.vi" Type="VI" URL="../Support Files/VILab/Test XML Rebuild.vi"/>
-		<Item Name="Tree Test.vi" Type="VI" URL="../Support Files/VILab/Tree Test.vi"/>
-		<Item Name="Remove Unnecessary Whitespace from XML.vi" Type="VI" URL="../Support Files/VILab/Remove Unnecessary Whitespace from XML.vi"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Convert XML Value to VTT.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Convert XML Value to VTT.vi"/>
+		<Item Name="Escape XML Text.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Escape XML Text.vi"/>
+		<Item Name="Init Tree Control.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Init Tree Control.vi"/>
+		<Item Name="Parse XML Heap.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Parse XML Heap.vi"/>
+		<Item Name="Process XML Node old2.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Process XML Node old2.vi"/>
 	</Item>
-	<Item Name="State Enum.ctl" Type="VI" URL="../Support Files/VILab/State Enum.ctl"/>
-	<Item Name="VILab Data.ctl" Type="VI" URL="../Support Files/VILab/VILab Data.ctl"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
