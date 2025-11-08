@@ -76,6 +76,10 @@
 			<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Testers/Basic Test SubVI.vi"/>
 			<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 			<Item Name="Remove Unnecessary Whitespace from XML.vi" Type="VI" URL="../Testers/Remove Unnecessary Whitespace from XML.vi"/>
+			<Item Name="Build Image Collage.vi" Type="VI" URL="../Testers/Build Image Collage.vi"/>
+			<Item Name="Test Different ImageResIDs.vi" Type="VI" URL="../Testers/Test Different ImageResIDs.vi"/>
+			<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
+			<Item Name="Build Internal Image Collage.vi" Type="VI" URL="../Testers/Build Internal Image Collage.vi"/>
 		</Item>
 		<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi">
 			<Property Name="marked" Type="Int">0</Property>
