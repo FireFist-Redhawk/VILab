@@ -31,6 +31,11 @@
 			<Item Name="Mass Assign Window Text.vi" Type="VI" URL="../Control Editing/Mass Assign Window Text.vi"/>
 			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Control Editing/Mass Edit Icon.vi"/>
 			<Item Name="Convert all SVGs to PNGs.vi" Type="VI" URL="../Control Editing/Convert all SVGs to PNGs.vi"/>
+			<Item Name="Fuse Button with Multi-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with Multi-Picture Item.ctl"/>
+			<Item Name="Fuse Button with 6-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with 6-Picture Item.ctl"/>
+			<Item Name="Multi-Decal Button.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button.ctl"/>
+			<Item Name="Multi-Decal Button--Hover.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button--Hover.ctl"/>
+			<Item Name="Fuse File Path No not-a-path Button.ctl" Type="VI" URL="../Control Editing/Fuse File Path No not-a-path Button.ctl"/>
 		</Item>
 		<Item Name="Legacy VIs" Type="Folder">
 			<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi">
@@ -87,11 +92,6 @@
 		<Item Name="VILab.lvlib" Type="Library" URL="../VILab.lvlib"/>
 		<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
 		<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
-		<Item Name="Fuse Button with Multi-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with Multi-Picture Item.ctl"/>
-		<Item Name="Fuse Button with 6-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with 6-Picture Item.ctl"/>
-		<Item Name="Multi-Decal Button.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button.ctl"/>
-		<Item Name="Multi-Decal Button--Hover.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button--Hover.ctl"/>
-		<Item Name="Fuse File Path No not-a-path Button.ctl" Type="VI" URL="../Control Editing/Fuse File Path No not-a-path Button.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi">
