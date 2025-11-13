@@ -25,17 +25,21 @@
 			<Item Name="Heap Save Format.ctl" Type="VI" URL="../CTLs/Heap Save Format.ctl"/>
 		</Item>
 		<Item Name="Control Editing" Type="Folder">
-			<Item Name="Create and Save Control.vi" Type="VI" URL="../Control Editing/Create and Save Control.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Add Glyph to Icon.vi" Type="VI" URL="../Control Editing/Add Glyph to Icon.vi"/>
-			<Item Name="Mass Create Controls.vi" Type="VI" URL="../Control Editing/Mass Create Controls.vi"/>
-			<Item Name="Mass Assign Window Text.vi" Type="VI" URL="../Control Editing/Mass Assign Window Text.vi"/>
-			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Control Editing/Mass Edit Icon.vi"/>
 			<Item Name="Convert all SVGs to PNGs.vi" Type="VI" URL="../Control Editing/Convert all SVGs to PNGs.vi"/>
-			<Item Name="Fuse Button with Multi-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with Multi-Picture Item.ctl"/>
+			<Item Name="Create and Save Control.vi" Type="VI" URL="../Control Editing/Create and Save Control.vi"/>
 			<Item Name="Fuse Button with 6-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with 6-Picture Item.ctl"/>
-			<Item Name="Multi-Decal Button.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button.ctl"/>
-			<Item Name="Multi-Decal Button--Hover.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button--Hover.ctl"/>
+			<Item Name="Fuse Button with Multi-Picture Item.ctl" Type="VI" URL="../Control Editing/Fuse Button with Multi-Picture Item.ctl"/>
 			<Item Name="Fuse File Path No not-a-path Button.ctl" Type="VI" URL="../Control Editing/Fuse File Path No not-a-path Button.ctl"/>
+			<Item Name="Fuse Image Display--Image Information.ctl" Type="VI" URL="../Control Editing/Fuse Image Display--Image Information.ctl"/>
+			<Item Name="Fuse Image Display--ROI Tools.ctl" Type="VI" URL="../Control Editing/Fuse Image Display--ROI Tools.ctl"/>
+			<Item Name="Fuse Image Display.ctl" Type="VI" URL="../Control Editing/Fuse Image Display.ctl"/>
+			<Item Name="Mass Assign Window Text.vi" Type="VI" URL="../Control Editing/Mass Assign Window Text.vi"/>
+			<Item Name="Mass Create Controls.vi" Type="VI" URL="../Control Editing/Mass Create Controls.vi"/>
+			<Item Name="Mass Edit Icon.vi" Type="VI" URL="../Control Editing/Mass Edit Icon.vi"/>
+			<Item Name="Multi-Decal Button--Hover.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button--Hover.ctl"/>
+			<Item Name="Multi-Decal Button.ctl" Type="VI" URL="../Control Editing/Multi-Decal Button.ctl"/>
 		</Item>
 		<Item Name="Legacy VIs" Type="Folder">
 			<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi">
