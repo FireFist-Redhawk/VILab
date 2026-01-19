@@ -79,7 +79,6 @@
 			<Item Name="Save New VI From XML.vi" Type="VI" URL="../SubVIs/Save New VI From XML.vi"/>
 			<Item Name="Save Resource File.vi" Type="VI" URL="../SubVIs/Save Resource File.vi"/>
 			<Item Name="Save VI with XML Heaps.vi" Type="VI" URL="../SubVIs/Save VI with XML Heaps.vi"/>
-			<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../SubVIs/Test Decompose and Recompose.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Testers/Basic Test SubVI.vi"/>
@@ -90,6 +89,7 @@
 			<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
 			<Item Name="Build Internal Image Collage.vi" Type="VI" URL="../Testers/Build Internal Image Collage.vi"/>
 			<Item Name="Test Parse XML Heap.vi" Type="VI" URL="../Testers/Test Parse XML Heap.vi"/>
+			<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../Testers/Test Decompose and Recompose.vi"/>
 		</Item>
 		<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi">
 			<Property Name="marked" Type="Int">0</Property>
