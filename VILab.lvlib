@@ -25,7 +25,8 @@
 		<Item Name="Escape XML Text.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Escape XML Text.vi"/>
 		<Item Name="Init Tree Control.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Init Tree Control.vi"/>
 		<Item Name="Parse XML Heap.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Parse XML Heap.vi"/>
-		<Item Name="Process XML Node old2.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Process XML Node old2.vi"/>
+		<Item Name="Process XML Node.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Process XML Node.vi"/>
+		<Item Name="Get Node Attributes.vi" Type="VI" URL="../Support Files/VILab/SubVIs/Get Node Attributes.vi"/>
 	</Item>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>

@@ -89,6 +89,7 @@
 			<Item Name="Test Different ImageResIDs.vi" Type="VI" URL="../Testers/Test Different ImageResIDs.vi"/>
 			<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
 			<Item Name="Build Internal Image Collage.vi" Type="VI" URL="../Testers/Build Internal Image Collage.vi"/>
+			<Item Name="Test Parse XML Heap.vi" Type="VI" URL="../Testers/Test Parse XML Heap.vi"/>
 		</Item>
 		<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi">
 			<Property Name="marked" Type="Int">0</Property>
