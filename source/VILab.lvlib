@@ -13,7 +13,7 @@
 		<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl"/>
 		<Item Name="Resource.ctl" Type="VI" URL="../CTLs/Resource.ctl"/>
 		<Item Name="State Enum.ctl" Type="VI" URL="../CTLs/State Enum.ctl"/>
-		<Item Name="Terminal Counts.ctl" Type="VI" URL="../SubVIs/Terminal Counts.ctl"/>
+		<Item Name="Terminal Counts.ctl" Type="VI" URL="../CTLs/Terminal Counts.ctl"/>
 		<Item Name="VILab Data.ctl" Type="VI" URL="../CTLs/VILab Data.ctl"/>
 		<Item Name="XML Editor State Data.ctl" Type="VI" URL="../CTLs/XML Editor State Data.ctl"/>
 	</Item>
