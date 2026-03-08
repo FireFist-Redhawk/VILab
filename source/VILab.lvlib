@@ -9,7 +9,6 @@
 </Property>
 	<Item Name="CTLs" Type="Folder">
 		<Item Name="Heap Save Format.ctl" Type="VI" URL="../CTLs/Heap Save Format.ctl"/>
-		<Item Name="Resource Array.ctl" Type="VI" URL="../CTLs/Resource Array.ctl"/>
 		<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl"/>
 		<Item Name="Resource Editor State Data.ctl" Type="VI" URL="../CTLs/Resource Editor State Data.ctl"/>
 		<Item Name="Resource.ctl" Type="VI" URL="../CTLs/Resource.ctl"/>
