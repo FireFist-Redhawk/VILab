@@ -11,6 +11,7 @@
 		<Item Name="Heap Save Format.ctl" Type="VI" URL="../CTLs/Heap Save Format.ctl"/>
 		<Item Name="Resource Array.ctl" Type="VI" URL="../CTLs/Resource Array.ctl"/>
 		<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl"/>
+		<Item Name="Resource Editor State Data.ctl" Type="VI" URL="../CTLs/Resource Editor State Data.ctl"/>
 		<Item Name="Resource.ctl" Type="VI" URL="../CTLs/Resource.ctl"/>
 		<Item Name="State Enum.ctl" Type="VI" URL="../CTLs/State Enum.ctl"/>
 		<Item Name="Terminal Counts.ctl" Type="VI" URL="../CTLs/Terminal Counts.ctl"/>
@@ -80,5 +81,6 @@
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
 	<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
+	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
