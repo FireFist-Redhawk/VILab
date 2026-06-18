@@ -72,6 +72,7 @@
 		<Item Name="Build Image Collage.vi" Type="VI" URL="../Testers/Build Image Collage.vi"/>
 		<Item Name="Build Internal Image Collage.vi" Type="VI" URL="../Testers/Build Internal Image Collage.vi"/>
 		<Item Name="Remove Unnecessary Whitespace from XML.vi" Type="VI" URL="../Testers/Remove Unnecessary Whitespace from XML.vi"/>
+		<Item Name="Test Class Decompose Recompose.vi" Type="VI" URL="../Testers/Test Class Decompose Recompose.vi"/>
 		<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../Testers/Test Decompose and Recompose.vi"/>
 		<Item Name="Test Different ImageResIDs.vi" Type="VI" URL="../Testers/Test Different ImageResIDs.vi"/>
 		<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
