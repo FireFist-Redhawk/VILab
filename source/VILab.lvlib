@@ -15,13 +15,16 @@
 		<Item Name="State Enum.ctl" Type="VI" URL="../CTLs/State Enum.ctl"/>
 		<Item Name="Terminal Counts.ctl" Type="VI" URL="../CTLs/Terminal Counts.ctl"/>
 		<Item Name="VILab Data.ctl" Type="VI" URL="../CTLs/VILab Data.ctl"/>
+		<Item Name="VILab State Data.ctl" Type="VI" URL="../CTLs/VILab State Data.ctl"/>
 		<Item Name="XML Editor State Data.ctl" Type="VI" URL="../CTLs/XML Editor State Data.ctl"/>
 	</Item>
 	<Item Name="Legacy VIs" Type="Folder">
 		<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi"/>
+		<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
 		<Item Name="Resource Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Resource Editor--Legacy.vi"/>
 		<Item Name="temp.vtt" Type="Document" URL="../Legacy VIs/temp.vtt"/>
 		<Item Name="temp.xml" Type="Document" URL="../Legacy VIs/temp.xml"/>
+		<Item Name="VILab--Legacy.vi" Type="VI" URL="../Legacy VIs/VILab--Legacy.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Classes" Type="Folder">
@@ -76,7 +79,6 @@
 		<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
-	<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
