@@ -20,7 +20,7 @@
 	</Item>
 	<Item Name="Legacy VIs" Type="Folder">
 		<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi"/>
-		<Item Name="Launch VILab.vi" Type="VI" URL="../Launch VILab.vi"/>
+		<Item Name="Launch VILab.vi" Type="VI" URL="../Legacy VIs/Launch VILab.vi"/>
 		<Item Name="Resource Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Resource Editor--Legacy.vi"/>
 		<Item Name="temp.vtt" Type="Document" URL="../Legacy VIs/temp.vtt"/>
 		<Item Name="temp.xml" Type="Document" URL="../Legacy VIs/temp.xml"/>
