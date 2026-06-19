@@ -81,5 +81,6 @@
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
+	<Item Name="Test Tree Build.vi" Type="VI" URL="../Testers/Test Tree Build.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
