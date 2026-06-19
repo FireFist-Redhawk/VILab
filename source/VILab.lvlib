@@ -77,10 +77,10 @@
 		<Item Name="Test Different ImageResIDs.vi" Type="VI" URL="../Testers/Test Different ImageResIDs.vi"/>
 		<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
 		<Item Name="Test Parse XML Heap.vi" Type="VI" URL="../Testers/Test Parse XML Heap.vi"/>
+		<Item Name="Test Tree Build.vi" Type="VI" URL="../Testers/Test Tree Build.vi"/>
 		<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
-	<Item Name="Test Tree Build.vi" Type="VI" URL="../Testers/Test Tree Build.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
