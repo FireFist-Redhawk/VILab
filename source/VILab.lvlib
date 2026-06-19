@@ -59,7 +59,9 @@
 		<Item Name="Init Tree Control.vi" Type="VI" URL="../SubVIs/Init Tree Control.vi"/>
 		<Item Name="Is Big Endian.vi" Type="VI" URL="../SubVIs/Is Big Endian.vi"/>
 		<Item Name="Load Resource File.vi" Type="VI" URL="../SubVIs/Load Resource File.vi"/>
+		<Item Name="Parse XML Heap New.vi" Type="VI" URL="../SubVIs/Parse XML Heap New.vi"/>
 		<Item Name="Parse XML Heap.vi" Type="VI" URL="../SubVIs/Parse XML Heap.vi"/>
+		<Item Name="Process XML Node New.vi" Type="VI" URL="../SubVIs/Process XML Node New.vi"/>
 		<Item Name="Process XML Node.vi" Type="VI" URL="../SubVIs/Process XML Node.vi"/>
 		<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../SubVIs/Prompt for Terminal Counts.vi"/>
 		<Item Name="Recompose VI.vi" Type="VI" URL="../SubVIs/Recompose VI.vi"/>
@@ -81,6 +83,7 @@
 		<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
+	<Item Name="New Data Item.vi" Type="VI" URL="../SubVIs/New Data Item.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
