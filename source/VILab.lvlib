@@ -7,6 +7,12 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Classes" Type="Folder">
+		<Item Name="Attribute.lvclass" Type="LVClass" URL="../Classes/Attribute/Attribute.lvclass"/>
+		<Item Name="Data Item.lvclass" Type="LVClass" URL="../Classes/Data Item/Data Item.lvclass"/>
+		<Item Name="Element.lvclass" Type="LVClass" URL="../Classes/Element/Element.lvclass"/>
+		<Item Name="Tree Manager.lvclass" Type="LVClass" URL="../Classes/Tree Manager/Tree Manager.lvclass"/>
+	</Item>
 	<Item Name="CTLs" Type="Folder">
 		<Item Name="Heap Save Format.ctl" Type="VI" URL="../CTLs/Heap Save Format.ctl"/>
 		<Item Name="Resource Editor Internal Commands Enum.ctl" Type="VI" URL="../CTLs/Resource Editor Internal Commands Enum.ctl"/>
@@ -27,12 +33,6 @@
 		<Item Name="VILab--Legacy.vi" Type="VI" URL="../Legacy VIs/VILab--Legacy.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Classes" Type="Folder">
-			<Item Name="Attribute.lvclass" Type="LVClass" URL="../SubVIs/Classes/Attribute/Attribute.lvclass"/>
-			<Item Name="Data Item.lvclass" Type="LVClass" URL="../SubVIs/Classes/Data Item/Data Item.lvclass"/>
-			<Item Name="Element.lvclass" Type="LVClass" URL="../SubVIs/Classes/Element/Element.lvclass"/>
-			<Item Name="Tree Manager.lvclass" Type="LVClass" URL="../SubVIs/Classes/Tree Manager/Tree Manager.lvclass"/>
-		</Item>
 		<Item Name="Add Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Add Resource Size Bytes.vi"/>
 		<Item Name="Blank VI.vi" Type="VI" URL="../SubVIs/Blank VI.vi"/>
 		<Item Name="Convert Format to Resource Type.vi" Type="VI" URL="../SubVIs/Convert Format to Resource Type.vi"/>
@@ -59,6 +59,7 @@
 		<Item Name="Init Tree Control.vi" Type="VI" URL="../SubVIs/Init Tree Control.vi"/>
 		<Item Name="Is Big Endian.vi" Type="VI" URL="../SubVIs/Is Big Endian.vi"/>
 		<Item Name="Load Resource File.vi" Type="VI" URL="../SubVIs/Load Resource File.vi"/>
+		<Item Name="New Data Item.vi" Type="VI" URL="../SubVIs/New Data Item.vi"/>
 		<Item Name="Parse XML Heap New.vi" Type="VI" URL="../SubVIs/Parse XML Heap New.vi"/>
 		<Item Name="Parse XML Heap.vi" Type="VI" URL="../SubVIs/Parse XML Heap.vi"/>
 		<Item Name="Process XML Node New.vi" Type="VI" URL="../SubVIs/Process XML Node New.vi"/>
@@ -83,7 +84,6 @@
 		<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
-	<Item Name="New Data Item.vi" Type="VI" URL="../SubVIs/New Data Item.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
 	<Item Name="VILab.vi" Type="VI" URL="../VILab.vi"/>
 </Library>
