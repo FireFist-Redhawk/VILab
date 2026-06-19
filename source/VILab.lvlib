@@ -8,7 +8,6 @@
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Classes" Type="Folder">
-		<Item Name="Attribute.lvclass" Type="LVClass" URL="../Classes/Attribute/Attribute.lvclass"/>
 		<Item Name="Data Item.lvclass" Type="LVClass" URL="../Classes/Data Item/Data Item.lvclass"/>
 		<Item Name="Element.lvclass" Type="LVClass" URL="../Classes/Element/Element.lvclass"/>
 		<Item Name="Tree Manager.lvclass" Type="LVClass" URL="../Classes/Tree Manager/Tree Manager.lvclass"/>
@@ -20,17 +19,14 @@
 		<Item Name="Resource.ctl" Type="VI" URL="../CTLs/Resource.ctl"/>
 		<Item Name="State Enum.ctl" Type="VI" URL="../CTLs/State Enum.ctl"/>
 		<Item Name="Terminal Counts.ctl" Type="VI" URL="../CTLs/Terminal Counts.ctl"/>
-		<Item Name="VILab Data.ctl" Type="VI" URL="../CTLs/VILab Data.ctl"/>
 		<Item Name="VILab State Data.ctl" Type="VI" URL="../CTLs/VILab State Data.ctl"/>
 		<Item Name="XML Editor State Data.ctl" Type="VI" URL="../CTLs/XML Editor State Data.ctl"/>
 	</Item>
 	<Item Name="Legacy VIs" Type="Folder">
 		<Item Name="Easy XML Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Easy XML Editor--Legacy.vi"/>
-		<Item Name="Launch VILab.vi" Type="VI" URL="../Legacy VIs/Launch VILab.vi"/>
 		<Item Name="Resource Editor--Legacy.vi" Type="VI" URL="../Legacy VIs/Resource Editor--Legacy.vi"/>
 		<Item Name="temp.vtt" Type="Document" URL="../Legacy VIs/temp.vtt"/>
 		<Item Name="temp.xml" Type="Document" URL="../Legacy VIs/temp.xml"/>
-		<Item Name="VILab--Legacy.vi" Type="VI" URL="../Legacy VIs/VILab--Legacy.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Add Resource Size Bytes.vi"/>
@@ -61,9 +57,7 @@
 		<Item Name="Load Resource File.vi" Type="VI" URL="../SubVIs/Load Resource File.vi"/>
 		<Item Name="New Data Item.vi" Type="VI" URL="../SubVIs/New Data Item.vi"/>
 		<Item Name="Parse XML Heap New.vi" Type="VI" URL="../SubVIs/Parse XML Heap New.vi"/>
-		<Item Name="Parse XML Heap.vi" Type="VI" URL="../SubVIs/Parse XML Heap.vi"/>
 		<Item Name="Process XML Node New.vi" Type="VI" URL="../SubVIs/Process XML Node New.vi"/>
-		<Item Name="Process XML Node.vi" Type="VI" URL="../SubVIs/Process XML Node.vi"/>
 		<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../SubVIs/Prompt for Terminal Counts.vi"/>
 		<Item Name="Recompose VI.vi" Type="VI" URL="../SubVIs/Recompose VI.vi"/>
 		<Item Name="Save New VI From XML.vi" Type="VI" URL="../SubVIs/Save New VI From XML.vi"/>
@@ -81,7 +75,6 @@
 		<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
 		<Item Name="Test Parse XML Heap.vi" Type="VI" URL="../Testers/Test Parse XML Heap.vi"/>
 		<Item Name="Test Tree Build.vi" Type="VI" URL="../Testers/Test Tree Build.vi"/>
-		<Item Name="Tree Test.vi" Type="VI" URL="../Testers/Tree Test.vi"/>
 	</Item>
 	<Item Name="Easy XML Editor.vi" Type="VI" URL="../Easy XML Editor.vi"/>
 	<Item Name="Resource Editor.vi" Type="VI" URL="../Resource Editor.vi"/>
