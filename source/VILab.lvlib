@@ -31,6 +31,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Add Resource Size Bytes.vi"/>
 		<Item Name="Blank VI.vi" Type="VI" URL="../SubVIs/Blank VI.vi"/>
+		<Item Name="Build Padding String.vi" Type="VI" URL="../SubVIs/Build Padding String.vi"/>
 		<Item Name="Convert Format to Resource Type.vi" Type="VI" URL="../SubVIs/Convert Format to Resource Type.vi"/>
 		<Item Name="Convert Source VI to Resource Data.vi" Type="VI" URL="../SubVIs/Convert Source VI to Resource Data.vi"/>
 		<Item Name="Convert XML Value to VTT.vi" Type="VI" URL="../SubVIs/Convert XML Value to VTT.vi"/>
@@ -43,22 +44,22 @@
 		<Item Name="Find Block Diagram Resource.vi" Type="VI" URL="../SubVIs/Find Block Diagram Resource.vi"/>
 		<Item Name="Find First Matching Resource (String).vi" Type="VI" URL="../SubVIs/Find First Matching Resource (String).vi"/>
 		<Item Name="Find First Matching Resource (U32).vi" Type="VI" URL="../SubVIs/Find First Matching Resource (U32).vi"/>
+		<Item Name="Find Item by Tag.vi" Type="VI" URL="../SubVIs/Find Item by Tag.vi"/>
 		<Item Name="Find Resource by Type (String).vi" Type="VI" URL="../SubVIs/Find Resource by Type (String).vi"/>
 		<Item Name="Find Resource by Type (U32).vi" Type="VI" URL="../SubVIs/Find Resource by Type (U32).vi"/>
 		<Item Name="Find Resource by Type.vi" Type="VI" URL="../SubVIs/Find Resource by Type.vi"/>
 		<Item Name="Fix BDPW Checksum.vi" Type="VI" URL="../SubVIs/Fix BDPW Checksum.vi"/>
 		<Item Name="Fix Resource Size Bytes.vi" Type="VI" URL="../SubVIs/Fix Resource Size Bytes.vi"/>
 		<Item Name="Get Counts from Datatype.vi" Type="VI" URL="../SubVIs/Get Counts from Datatype.vi"/>
-		<Item Name="Get Default VI Resources.vi" Type="VI" URL="../SubVIs/Get Default VI Resources.vi"/>
-		<Item Name="Get Node Attributes.vi" Type="VI" URL="../SubVIs/Get Node Attributes.vi"/>
 		<Item Name="Get Terminal Counts.vi" Type="VI" URL="../SubVIs/Get Terminal Counts.vi"/>
 		<Item Name="Init Tree Control.vi" Type="VI" URL="../SubVIs/Init Tree Control.vi"/>
 		<Item Name="Is Big Endian.vi" Type="VI" URL="../SubVIs/Is Big Endian.vi"/>
 		<Item Name="Load Resource File.vi" Type="VI" URL="../SubVIs/Load Resource File.vi"/>
 		<Item Name="New Data Item.vi" Type="VI" URL="../SubVIs/New Data Item.vi"/>
-		<Item Name="Parse XML Heap New.vi" Type="VI" URL="../SubVIs/Parse XML Heap New.vi"/>
-		<Item Name="Process XML Node New.vi" Type="VI" URL="../SubVIs/Process XML Node New.vi"/>
+		<Item Name="Parse XML Heap.vi" Type="VI" URL="../SubVIs/Parse XML Heap.vi"/>
+		<Item Name="Process XML Node.vi" Type="VI" URL="../SubVIs/Process XML Node.vi"/>
 		<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../SubVIs/Prompt for Terminal Counts.vi"/>
+		<Item Name="Recompose from Items New.vi" Type="VI" URL="../SubVIs/Recompose from Items New.vi"/>
 		<Item Name="Recompose VI.vi" Type="VI" URL="../SubVIs/Recompose VI.vi"/>
 		<Item Name="Save New VI From XML.vi" Type="VI" URL="../SubVIs/Save New VI From XML.vi"/>
 		<Item Name="Save Resource File.vi" Type="VI" URL="../SubVIs/Save Resource File.vi"/>
@@ -69,10 +70,10 @@
 		<Item Name="Build Image Collage.vi" Type="VI" URL="../Testers/Build Image Collage.vi"/>
 		<Item Name="Build Internal Image Collage.vi" Type="VI" URL="../Testers/Build Internal Image Collage.vi"/>
 		<Item Name="Remove Unnecessary Whitespace from XML.vi" Type="VI" URL="../Testers/Remove Unnecessary Whitespace from XML.vi"/>
-		<Item Name="Test Class Decompose Recompose.vi" Type="VI" URL="../Testers/Test Class Decompose Recompose.vi"/>
 		<Item Name="Test Decompose and Recompose.vi" Type="VI" URL="../Testers/Test Decompose and Recompose.vi"/>
 		<Item Name="Test Different ImageResIDs.vi" Type="VI" URL="../Testers/Test Different ImageResIDs.vi"/>
 		<Item Name="Test Different Internal ImageResIDs.vi" Type="VI" URL="../Testers/Test Different Internal ImageResIDs.vi"/>
+		<Item Name="Test New Recompose.vi" Type="VI" URL="../Testers/Test New Recompose.vi"/>
 		<Item Name="Test Parse XML Heap.vi" Type="VI" URL="../Testers/Test Parse XML Heap.vi"/>
 		<Item Name="Test Tree Build.vi" Type="VI" URL="../Testers/Test Tree Build.vi"/>
 	</Item>
