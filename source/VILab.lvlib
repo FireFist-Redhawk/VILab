@@ -59,11 +59,13 @@
 		<Item Name="Parse XML Heap.vi" Type="VI" URL="../SubVIs/Parse XML Heap.vi"/>
 		<Item Name="Process XML Node.vi" Type="VI" URL="../SubVIs/Process XML Node.vi"/>
 		<Item Name="Prompt for Terminal Counts.vi" Type="VI" URL="../SubVIs/Prompt for Terminal Counts.vi"/>
+		<Item Name="Read Heap Save Format.vi" Type="VI" URL="../SubVIs/Read Heap Save Format.vi"/>
 		<Item Name="Recompose from Items New.vi" Type="VI" URL="../SubVIs/Recompose from Items New.vi"/>
 		<Item Name="Recompose VI.vi" Type="VI" URL="../SubVIs/Recompose VI.vi"/>
 		<Item Name="Save New VI From XML.vi" Type="VI" URL="../SubVIs/Save New VI From XML.vi"/>
 		<Item Name="Save Resource File.vi" Type="VI" URL="../SubVIs/Save Resource File.vi"/>
 		<Item Name="Save VI with XML Heaps.vi" Type="VI" URL="../SubVIs/Save VI with XML Heaps.vi"/>
+		<Item Name="Write Heap Save Format.vi" Type="VI" URL="../SubVIs/Write Heap Save Format.vi"/>
 	</Item>
 	<Item Name="Testers" Type="Folder">
 		<Item Name="Basic Test SubVI.vi" Type="VI" URL="../Testers/Basic Test SubVI.vi"/>
